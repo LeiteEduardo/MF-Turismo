@@ -1,0 +1,107 @@
+.contato {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contato .container .title-pages {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #00003C;
+    text-align: center;
+    border-bottom: 3px solid #F0680B;
+    align-content: center;
+    padding-bottom: 24px;
+}
+
+#contato-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.infos {
+    width: 35%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.infos a {
+    color: #00003C;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 25%;
+}
+
+.infos i {
+    font-size: 250%;
+}
+
+.infos .help {
+    display: flex;
+    padding-left: 10%;
+    justify-content: space-evenly;
+}
+.infos .help a{
+    padding: 0;
+    font-size: 16px;
+}
+
+.map {
+    width: 35%;
+    height: 50vh;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%; 
+}
+
+
+@media screen and (max-width: 765px) {
+    .contato {
+        height: max-content;
+    }
+    .contato .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato .wrapper .infos{
+        width: 80%;
+        align-items: center;
+    }
+
+    .infos a {
+        padding: 0;
+    }
+
+    .infos .help {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+
+    .infos .help a{
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .map {
+        width: 90%;
+        height: 50vh;
+        margin-bottom: 24px;
+    }
+}

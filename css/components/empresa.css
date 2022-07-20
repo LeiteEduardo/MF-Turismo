@@ -1,0 +1,155 @@
+.empresa {
+    background: #f6f9ff;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: solid 2px #F0680B;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.empresa .container .title-pages {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #00003C;
+    text-align: center;
+    border-bottom: 3px solid #F0680B;
+    align-content: center;
+    padding-bottom: 24px;
+}
+
+.empresa .container span {
+    padding: 32px;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 125%;
+}
+
+.empresa .cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #434343;
+}
+
+.empresa .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 1rem 1.5rem;
+    margin-left: 32px;
+    height: 35vh;
+    width: 20%;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.empresa .cards .card:first-child {
+    margin-left: 0;
+}
+
+.empresa .cards .card .icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.empresa .cards .card i {
+    margin: 0;
+    font-size: 400%;
+}
+
+.empresa .cards .card h4 {
+    font: 100%;
+    margin: 16px 0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.empresa .cards .card span {
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresa .cards .card.visao {
+    box-shadow: 20px 20px 50px -30px #00003C;
+}
+
+.empresa .cards .card.missao {
+    box-shadow: 20px 20px 50px -30px #00003C;
+}
+
+.empresa .cards .card.valor {
+    box-shadow: 20px 20px 50px -30px #00003C;
+}
+
+@media screen and (max-width: 1366px) {
+    .empresa {
+        height: max-content;
+    }
+    .empresa .cards {
+        flex-direction: column;
+    }
+    .empresa .cards .card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    .empresa .container span {
+        width: 80%;
+    }
+
+    .empresa .cards .card {
+        height: max-content;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .empresa {
+        height: max-content;
+    }
+    .empresa .cards {
+        flex-direction: column;
+    }
+
+    .empresa .cards .card {
+        margin-left: 0;
+        margin-bottom: 32px;
+        width: 80%;
+    }
+
+    .empresa .container span {
+        width: 80%;
+    }
+}
