@@ -23,7 +23,7 @@ $('.nav-link').click(function(e){
     //console.log($(this).text());
 
     $('html, body').animate({
-        scrollTop: $('#' + $(this).text()).offset().top - 63
+        scrollTop: $('#' + $(this).text()).offset().top - 78
     }, 200);    
     
     
