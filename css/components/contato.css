@@ -12,7 +12,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #00003C;
+    color: #000545;
     text-align: center;
     border-bottom: 3px solid #F0680B;
     align-content: center;
@@ -34,7 +34,7 @@
 }
 
 .infos a {
-    color: #00003C;
+    color: #000545;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -70,7 +70,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color: #00003C;
+    color: #000545;
     margin-top: 24px;
     margin-bottom: 24px;
     font-size: 1.3em;

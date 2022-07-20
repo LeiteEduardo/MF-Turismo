@@ -18,7 +18,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #00003C;
+    color: #000545;
     text-align: center;
     border-bottom: 3px solid #F0680B;
     align-content: center;
@@ -102,15 +102,15 @@
 }
 
 .empresa .cards .card.visao {
-    box-shadow: 20px 20px 50px -30px #00003C;
+    box-shadow: 20px 20px 50px -30px #000545;
 }
 
 .empresa .cards .card.missao {
-    box-shadow: 20px 20px 50px -30px #00003C;
+    box-shadow: 20px 20px 50px -30px #000545;
 }
 
 .empresa .cards .card.valor {
-    box-shadow: 20px 20px 50px -30px #00003C;
+    box-shadow: 20px 20px 50px -30px #000545;
 }
 
 @media screen and (max-width: 1366px) {
